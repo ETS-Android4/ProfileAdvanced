@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dialog -->
+    <string-array name="dialog_sort">
+        <item>최신 순</item>
+        <item>과거 순</item>
+    </string-array>
+
+    <string-array name="dialog_manage_profile">
+        <item>보관함에 추가</item>
+        <item>장치에 저장</item>
+        <item>공유</item>
+        <item>숨김</item>
+    </string-array>
+
+    <string-array name="dialog_manage_profile_archive">
+        <item>보관함에서 제거</item>
+        <item>장치에 저장</item>
+        <item>공유</item>
+    </string-array>
+
+    <string-array name="cache_path_kakao_talk">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.kakao.talk</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+
+    <string-array name="cache_path_kakao_profile">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.pleiades.pleione.kakaoprofile</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+
+    <string-array name="more_default">
+        <item>숨김프로필 관리</item>
+        <item>임시프로필 삭제</item>
+    </string-array>
+
+    <string-array name="more_info">
+        <item>팁</item>
+        <item>면책조항</item>
+    </string-array>
+
+    <string-array name="more_application">
+        <item>앱 공유</item>
+        <item>광고 제거</item>
+        <item>업데이트 확인</item>
+        <item>플레이오네의 다른 앱</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- kakao profiler -->
+    <color name="colorKakaoRed">#E65F3E</color> <!-- notice -->
+
+    <color name="colorKakaoBlackText">#191919</color> <!-- main text -->
+    <color name="colorKakaoGrayText">#999999</color>
+
+    <color name="colorKakaoGraySeparator">#f0f0f0</color> <!-- separator, ads background -->
+    <color name="colorKakaoGrayScroll">#B8B8B8</color> <!-- scroll bar -->
+    <color name="colorKakaoGrayMessage">#7F7F7F</color> <!-- dialog message -->
+    <color name="colorKakaoGrayButton">#DADADA</color> <!-- radio button -->
+
+    <color name="colorKakaoBlackNav">#2F363E</color> <!-- navigation icon -->
+    <color name="colorKakaoGrayNav">#F9F9FA</color> <!-- navigation background -->
+
+    <color name="colorKakaoBlueDialog">#2C88DE</color> <!-- dialog button -->
+
+    <!-- kakaotalk icon -->
+    <color name="colorKakaoYellowMain">#FAE000</color>
+    <color name="colorKakaoBrownMain">#3B1C1C</color>
+
+</resources>

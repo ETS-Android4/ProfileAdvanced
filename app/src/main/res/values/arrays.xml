@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dialog -->
+    <string-array name="dialog_sort">
+        <item>Newest</item>
+        <item>Oldest</item>
+    </string-array>
+
+    <string-array name="dialog_manage_profile">
+        <item>Add to Archive</item>
+        <item>Save to Device</item>
+        <item>Share</item>
+        <item>Hide</item>
+    </string-array>
+
+    <string-array name="dialog_manage_profile_archive">
+        <item>Remove from Archive</item>
+        <item>Save to Device</item>
+        <item>Share</item>
+    </string-array>
+
+    <string-array name="cache_path_kakao_talk">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.kakao.talk</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+
+    <string-array name="cache_path_kakao_profile">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.pleiades.pleione.kakaoprofile</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+
+    <string-array name="more_default">
+        <item>Hide Profiles</item>
+        <item>Clear Profile Cache</item>
+    </string-array>
+
+    <string-array name="more_info">
+        <item>Tip</item>
+        <item>Disclaimer</item>
+    </string-array>
+
+    <string-array name="more_application">
+        <item>App Share</item>
+        <item>Remove Ads</item>
+        <item>Check for Update</item>
+        <item>Other Apps by Pleione</item>
+    </string-array>
+
+</resources>

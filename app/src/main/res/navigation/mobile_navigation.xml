@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profiles">
+
+    <fragment
+        android:id="@+id/navigation_profiles"
+        android:name="com.pleiades.pleione.kakaoprofile.ui.activity.main.fragment.profiles.ProfilesFragment"
+        android:label="@string/label_profiles"
+        tools:layout="@layout/fragment_profiles" />
+
+    <fragment
+        android:id="@+id/navigation_archive"
+        android:name="com.pleiades.pleione.kakaoprofile.ui.activity.main.fragment.archive.ArchiveFragment"
+        android:label="@string/label_archive"
+        tools:layout="@layout/fragment_archive" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.pleiades.pleione.kakaoprofile.ui.activity.main.fragment.more.MoreFragment"
+        android:label="@string/label_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>

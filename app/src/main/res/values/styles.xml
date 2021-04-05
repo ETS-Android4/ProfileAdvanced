@@ -1,0 +1,118 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- action bar -->
+        <item name="colorPrimary">@android:color/white</item>
+
+        <!-- status bar -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+<!--        <item name="android:windowLightNavigationBar">true</item>-->
+
+        <!-- activity background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- accent -->
+        <item name="colorAccent">@color/colorKakaoBlueDialog</item>
+
+        <!-- main text -->
+        <item name="android:textColorPrimary">@color/colorKakaoBlackText</item>
+
+        <!-- drawer item, overflow popup text size -->
+        <item name="android:textSize">14sp</item>
+
+        <!-- line color -->
+        <item name="android:listDivider">@color/colorKakaoGraySeparator</item>
+
+        <!-- actionbar shadow -->
+        <item name="elevation">0dp</item>
+
+        <!-- action button theme -->
+        <item name="android:actionButtonStyle">@style/ActionButton</item>
+
+        <!-- click(ripple) effect color -->
+        <item name="colorControlHighlight">@color/colorKakaoGraySeparator</item>
+
+        <!-- pressed radio button -->
+        <item name="colorControlActivated">@color/colorKakaoBlueDialog</item>
+
+        <!-- released radio button -->
+        <item name="colorControlNormal">@color/colorKakaoGrayButton</item>
+
+        <!-- overflow popup shadow -->
+        <item name="actionOverflowMenuStyle">@style/PopupMenu.Overflow</item>
+    </style>
+
+    <!-- overflow pop up shadow -->
+    <style name="PopupMenu.Overflow" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="elevation">0dp</item>
+        <item name="android:popupElevation">0dp</item>
+    </style>
+
+    <!-- pop up menu ripple toolbar theme -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorKakaoGraySeparator</item>
+    </style>
+
+    <!-- no action bar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- app bar theme -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- overflow icon color -->
+        <item name="android:tint">@color/colorKakaoBlackText</item>
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <!-- action button theme -->
+    <style name="ActionButton" parent="@android:style/Widget.ActionButton">
+        <item name="android:drawablePadding">@dimen/action_button_padding</item>
+    </style>
+
+    <!-- toolbar text theme -->
+    <style name="AppTheme.ToolbarTextOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorKakaoBlackText</item>
+    </style>
+
+    <!-- for splash launch -->
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_launch</item>
+
+        <!-- status bar -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- dialog -->
+    <style name="AppTheme.DialogOverlay" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/ButtonStyle</item>
+
+        <item name="android:textColor">@color/colorKakaoBlackText</item>
+        <item name="android:textColorPrimary">@color/colorKakaoBlackText</item>
+    </style>
+
+    <!-- dialog button -->
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorKakaoBlueDialog</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- dialog title -->
+    <style name="TitleStyle" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorKakaoBlackText</item>
+    </style>
+</resources>

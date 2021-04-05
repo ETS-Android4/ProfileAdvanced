@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_archive_outline.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_archive_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_round_list.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\dialog_round_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_action_bar_selected_hide.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_action_bar_selected_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\anim_nav_default_enter_anim.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\anim\\nav_default_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_dialog_round_background.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\dialog_round_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_selector_profiles.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\selector_profiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_more_outline.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_more_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_recycler_component_dialog_list.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\recycler_component_dialog_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_profiles.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\fragment_profiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_nav_item_background.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\nav_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_pager_full.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\pager_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_archive.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\fragment_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_more.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\fragment_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_recycler_component_profile.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\recycler_component_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_new.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_profiles.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_profiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\anim_nav_default_pop_exit_anim.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\anim\\nav_default_pop_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_selected.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_cursor_custom.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\cursor_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_hide.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\activity_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_action_bar_selected_profiles.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_action_bar_selected_profiles.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_selector_more.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\selector_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_action_bar_selected_archive.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_action_bar_selected_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_toast_background.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\toast_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_archive.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_round_default.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\dialog_round_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_profiles_outline.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_profiles_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_selector_archive.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\selector_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\anim_nav_default_pop_enter_anim.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\anim\\nav_default_pop_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_splash_launch.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\splash_launch.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\anim_nav_default_exit_anim.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\anim\\nav_default_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_action_bar_main.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_action_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_nav_background.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\nav_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_splash.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\ic_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_action_bar_hide.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\menu\\menu_action_bar_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_recycler_component_more.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\recycler_component_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_toast_custom.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_full.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\activity_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\drawable_nav_background_reverse.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\drawable\\nav_background_reverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_full_page.xml.flat",
+        "source": "C:\\Users\\LordRoid\\AndroidStudioProjects\\KakaoProfile\\app\\src\\main\\res\\layout\\fragment_full_page.xml"
+    }
+]

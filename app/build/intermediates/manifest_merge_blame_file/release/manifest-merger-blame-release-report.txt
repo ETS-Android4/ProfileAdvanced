@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pleiades.pleione.kakaoprofile"
+4    android:versionCode="12"
+5    android:versionName="1.1.2" >
+6
+7    <uses-sdk
+7-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:5:5-6:38
+8        android:maxSdkVersion="29"
+8-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:6:9-35
+9        android:minSdkVersion="23"
+9-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:5:5-6:38
+10        android:targetSdkVersion="29" />
+10-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:5:5-6:38
+11
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:8:5-80
+12-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:8:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- connect internet for ads -->
+14-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:10:5-67
+14-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="com.android.vending.BILLING" />
+15-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:11:5-67
+15-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:11:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Android package visibility setting -->
+16-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:24:5-79
+16-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:24:22-76
+17    <queries>
+17-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:27:5-43:15
+18
+19        <!-- For browser content -->
+20        <intent>
+20-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:30:9-36:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:31:13-65
+21-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:31:21-62
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:33:13-74
+23-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:33:23-71
+24
+25            <data android:scheme="https" />
+25-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:35:13-44
+25-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:35:19-41
+26        </intent>
+27        <!-- End of browser content -->
+28        <!-- For CustomTabsService -->
+29        <intent>
+29-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:39:9-41:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:40:13-90
+30-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:40:21-87
+31        </intent>
+32        <!-- End of CustomTabsService -->
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\cfc12e574e58d05edbbce9df8fed5e3a\jetified-play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:25:5-68
+35-->[com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\cfc12e574e58d05edbbce9df8fed5e3a\jetified-play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:25:22-65
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
+36-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
+37
+38    <application
+38-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:13:5-64:19
+39        android:allowBackup="true"
+39-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:14:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.1] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="true"
+42-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:15:9-41
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:16:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:17:9-41
+45        android:largeHeap="true"
+45-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:18:9-33
+46        android:requestLegacyExternalStorage="true"
+46-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:19:9-52
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:20:9-54
+48        android:supportsRtl="true"
+48-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:21:9-35
+49        android:theme="@style/AppTheme" >
+49-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:22:9-40
+50
+51        <!-- admob app id -->
+52        <meta-data
+52-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:25:9-27:60
+53            android:name="com.google.android.gms.ads.APPLICATION_ID"
+53-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:26:13-69
+54            android:value="@string/admob_release_app_id" /> <!-- TODO change app ID -->
+54-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:27:13-57
+55
+56
+57        <!-- splash launch activity -->
+58        <activity
+58-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:30:9-38:20
+59            android:name="com.pleiades.pleione.kakaoprofile.ui.activity.SplashActivity"
+59-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:31:13-88
+60            android:theme="@style/SplashTheme" >
+60-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:32:13-47
+61            <intent-filter>
+61-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:33:13-37:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:34:17-69
+62-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:34:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:36:17-77
+64-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:36:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <!-- main activity -->
+69        <activity
+69-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:41:9-43:59
+70            android:name="com.pleiades.pleione.kakaoprofile.ui.activity.main.MainActivity"
+70-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:42:13-91
+71            android:theme="@style/AppTheme.NoActionBar" />
+71-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:43:13-56
+72
+73        <!-- full activity -->
+74        <activity
+74-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:46:9-48:59
+75            android:name="com.pleiades.pleione.kakaoprofile.ui.activity.full.FullActivity"
+75-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:47:13-91
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:48:13-56
+77
+78        <!-- hide activity -->
+79        <activity
+79-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:51:9-53:59
+80            android:name="com.pleiades.pleione.kakaoprofile.ui.activity.HideActivity"
+80-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:52:13-53
+81            android:theme="@style/AppTheme.NoActionBar" />
+81-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:53:13-56
+82
+83        <provider
+83-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:55:9-63:20
+84            android:name="androidx.core.content.FileProvider"
+84-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:56:13-62
+85            android:authorities="com.pleiades.pleione.kakaoprofile.fileprovider"
+85-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:57:13-81
+86            android:exported="false"
+86-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:58:13-37
+87            android:grantUriPermissions="true" >
+87-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:59:13-47
+88            <meta-data
+88-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:60:13-62:54
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:61:17-67
+90                android:resource="@xml/file_paths" />
+90-->C:\Users\LordRoid\AndroidStudioProjects\KakaoProfile\app\src\main\AndroidManifest.xml:62:17-51
+91        </provider>
+92        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+93        <activity
+93-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:48:9-52:64
+94            android:name="com.google.android.gms.ads.AdActivity"
+94-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:49:13-65
+95            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+95-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:50:13-122
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:51:13-37
+97            android:theme="@android:style/Theme.Translucent" />
+97-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:52:13-61
+98
+99        <provider
+99-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:54:9-58:39
+100            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+100-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:55:13-76
+101            android:authorities="com.pleiades.pleione.kakaoprofile.mobileadsinitprovider"
+101-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:56:13-73
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:57:13-37
+103            android:initOrder="100" />
+103-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:58:13-36
+104
+105        <service
+105-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:60:9-63:40
+106            android:name="com.google.android.gms.ads.AdService"
+106-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:61:13-64
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:62:13-35
+108            android:exported="false" />
+108-->[com.google.android.gms:play-services-ads-lite:19.7.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\d4715a28093bf8b1a56e3127ab89bb49\jetified-play-services-ads-lite-19.7.0\AndroidManifest.xml:63:13-37
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\1eb47fdeaf17501e40b9243e33b84f48\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\1eb47fdeaf17501e40b9243e33b84f48\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\1eb47fdeaf17501e40b9243e33b84f48\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+113
+114        <provider
+114-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+115            android:name="androidx.work.impl.WorkManagerInitializer"
+115-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+116            android:authorities="com.pleiades.pleione.kakaoprofile.workmanager-init"
+116-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+118            android:exported="false"
+118-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+119            android:multiprocess="true" />
+119-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+120
+121        <service
+121-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+122            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+122-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+124            android:enabled="@bool/enable_system_alarm_service_default"
+124-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+125            android:exported="false" />
+125-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+126        <service
+126-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+127            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+127-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+128            android:directBootAware="false"
+128-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+129            android:enabled="@bool/enable_system_job_service_default"
+129-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+130            android:exported="true"
+130-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+131            android:permission="android.permission.BIND_JOB_SERVICE" />
+131-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+132
+133        <receiver
+133-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+134            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+134-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+135            android:directBootAware="false"
+135-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+136            android:enabled="true"
+136-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+137            android:exported="false" />
+137-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+138        <receiver
+138-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+139            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+139-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+141            android:enabled="false"
+141-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+142            android:exported="false" >
+142-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+143            <intent-filter>
+143-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+144                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+144-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+144-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+145                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+145-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+145-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+146            </intent-filter>
+147        </receiver>
+148        <receiver
+148-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+149            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+149-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+151            android:enabled="false"
+151-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+152            android:exported="false" >
+152-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+153            <intent-filter>
+153-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+154                <action android:name="android.intent.action.BATTERY_OKAY" />
+154-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+154-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+155                <action android:name="android.intent.action.BATTERY_LOW" />
+155-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+155-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+156            </intent-filter>
+157        </receiver>
+158        <receiver
+158-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+159            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+159-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+161            android:enabled="false"
+161-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+162            android:exported="false" >
+162-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+163            <intent-filter>
+163-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+164                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+164-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+164-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+165                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+165-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+165-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+166            </intent-filter>
+167        </receiver>
+168        <receiver
+168-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+169            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+169-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+171            android:enabled="false"
+171-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+172            android:exported="false" >
+172-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+173            <intent-filter>
+173-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+174                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+174-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
+174-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+178            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+178-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+180            android:enabled="false"
+180-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:108:17-79
+183-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:108:25-76
+184                <action android:name="android.intent.action.TIME_SET" />
+184-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+184-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+185                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+185-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+185-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+186            </intent-filter>
+187        </receiver>
+188        <receiver
+188-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+189            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+189-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+191            android:enabled="@bool/enable_system_alarm_service_default"
+191-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+192            android:exported="false" >
+192-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+193            <intent-filter>
+193-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+194                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+194-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+194-->[androidx.work:work-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\e670501dc4810d28becf9beab105420e\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+195            </intent-filter>
+196        </receiver>
+197
+198        <service
+198-->[androidx.room:room-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\38b97cd7214cf1bd257b66dde7a5e257\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+199            android:name="androidx.room.MultiInstanceInvalidationService"
+199-->[androidx.room:room-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\38b97cd7214cf1bd257b66dde7a5e257\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+200            android:exported="false" />
+200-->[androidx.room:room-runtime:2.1.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\38b97cd7214cf1bd257b66dde7a5e257\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+201
+202        <provider
+202-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+203            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+203-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+204            android:authorities="com.pleiades.pleione.kakaoprofile.lifecycle-process"
+204-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+205            android:exported="false"
+205-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+206            android:multiprocess="true" />
+206-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\LordRoid\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+207    </application>
+208
+209</manifest>

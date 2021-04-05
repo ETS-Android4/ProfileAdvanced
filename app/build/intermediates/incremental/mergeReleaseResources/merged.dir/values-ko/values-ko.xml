@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="cache_path_kakao_profile">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.pleiades.pleione.kakaoprofile</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+    <string-array name="cache_path_kakao_talk">
+        <item>Android</item>
+        <item>data</item>
+        <item>com.kakao.talk</item> <!-- package name -->
+        <item>cache</item>
+    </string-array>
+    <string-array name="dialog_manage_profile">
+        <item>보관함에 추가</item>
+        <item>장치에 저장</item>
+        <item>공유</item>
+        <item>숨김</item>
+    </string-array>
+    <string-array name="dialog_manage_profile_archive">
+        <item>보관함에서 제거</item>
+        <item>장치에 저장</item>
+        <item>공유</item>
+    </string-array>
+    <string-array name="dialog_sort">
+        <item>최신 순</item>
+        <item>과거 순</item>
+    </string-array>
+    <string-array name="more_application">
+        <item>앱 공유</item>
+        <item>광고 제거</item>
+        <item>업데이트 확인</item>
+        <item>플레이오네의 다른 앱</item>
+    </string-array>
+    <string-array name="more_default">
+        <item>숨김프로필 관리</item>
+        <item>임시프로필 삭제</item>
+    </string-array>
+    <string-array name="more_info">
+        <item>팁</item>
+        <item>면책조항</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"완료"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"사용"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"검색..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="action_add">보관함에 추가</string>
+    <string name="action_hide">숨김</string>
+    <string name="action_remove">보관함에서 제거</string>
+    <string name="action_save">장치에 저장</string>
+    <string name="action_share">공유</string>
+    <string name="action_show">숨김 해제</string>
+    <string name="action_sort">정렬하기</string>
+    <string name="admob_release_app_id">ca-app-pub-9553079383177875~1903555793</string>
+    <string name="admob_release_banner_id">ca-app-pub-9553079383177875/6964310787</string>
+    <string name="admob_test_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_test_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_name">Profile Advanced</string>
+    <string name="archive_fragment_message">보관함에 추가된 프로필은\n카카오톡 임시 파일을 삭제해도 확인할 수 있습니다.</string>
+    <string name="array_more_application_pleione">플레이오네의 다른 앱</string>
+    <string name="array_more_application_remove_ads">광고 제거</string>
+    <string name="array_more_application_share">앱 공유</string>
+    <string name="array_more_application_update">업데이트 확인</string>
+    <string name="array_more_default_hide">숨김프로필 관리</string>
+    <string name="array_more_default_temporary">임시프로필 삭제</string>
+    <string name="array_more_info_disclaimer">면책조항</string>
+    <string name="array_more_info_tip">팁</string>
+    <string name="cache_archive">Archive</string>
+    <string name="cache_mini">MiniProfileImage</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
+    <string name="dialog_android_io_message">임시파일을 탐색하기 위해 파일 액세스를 허가해 주십시오.</string>
+    <string name="dialog_android_uri_message">--</string>
+    <string name="dialog_clear_temporary_message">임시프로필을 삭제하시겠습니까?\n임시프로필을 삭제하면 현재 이미지들은 더이상 나타나지 않지만 이후 카카오톡에서 열람한 프로필은 확인할 수 있습니다.</string>
+    <string name="dialog_confirm">확인</string>
+    <string name="dialog_disclaimer_message">해당 서비스는 카카오톡과 관련 없는 이미지 관리 애플리케이션입니다.\n따라서 이미지를 업로드한 유저의 허가 없이 혹은 상업적 용도로 이미지를 다운로드하는 것을 금지합니다.\n또한 서비스를 사용하여 발생하는 모든 결과에 대한 책임은 사용자에게 있습니다.</string>
+    <string name="dialog_manage_profile">프로필 관리</string>
+    <string name="dialog_negative">취소</string>
+    <string name="dialog_notice_message">애니메이션 프로필은 암호화되어 확인할 수 없습니다.</string>
+    <string name="dialog_r_warning_message">죄송합니다.\n안드로이드 11 버전은 아직 지원하지 않습니다.</string>
+    <string name="dialog_tip_message">원하는 프로필을 못 찾으셨습니까?\n임시프로필을 삭제하고 카카오톡에서 프로필을 열람하면 해당 이미지를 바로 확인할 수 있습니다.</string>
+    <string name="directory_default_pictures">Pictures</string>
+    <string name="directory_kakao_profile_save">KakaoProfile</string>
+    <string name="hide_fragment_message">숨김프로필이 없거나 숨김프로필을 불러오는 중입니다.</string>
+    <string name="in_app_RSA">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt2C+3BVfakNjRmBlV+Jy61G0MqBHKaxGfcsIxts+DAyRLCFMCfcRtMciT6ncr+nAt5GdPzQgPM/OroZpMfZKIauzm5X7kVwoq/ffJVwe0wwcKRTDQ654hyxobjQHI2WhxyvylVkHqx36pbOb54HqcfLXffaGxPYSmh0Za4noU1IOJzLTFXvQ4XSgsYh/zMyTO4AnDhzE1PJLMsWhYTL42reWdMvsozGvhXz2xdA8LfnjfJ7WomhQYpaAzqYUUAafcRkcA5TDT4fxppH4ybqM/Ie8mhPRhap2LY6BCqfUxJtZhZFThD7ll3dLVJGPG8rcNBl6evdwevmTPnda3zxX1wIDAQAB</string>
+    <string name="label_archive">보관함</string>
+    <string name="label_hide">숨김프로필 관리</string>
+    <string name="label_more">더보기</string>
+    <string name="label_profiles">프로필</string>
+    <string name="more_category_application">애플리케이션</string>
+    <string name="more_category_info">정보</string>
+    <string name="more_store_url_kakao_profile">https://play.google.com/store/apps/details?id=com.pleiades.pleione.kakaoprofile</string>
+    <string name="more_store_url_pleione">https://play.google.com/store/apps/developer?id=Pleione+Pleiades</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"위로 이동"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"탐색 창 열기"</string>
+    <string msgid="4014704848104544569" name="offline_notification_text">"광고를 열려면 탭하세요."</string>
+    <string msgid="6989673690118446590" name="offline_notification_title">"오프라인 상태에서 저장한 광고 보기"</string>
+    <string msgid="6452552490969291315" name="offline_opt_in_confirm">"확인"</string>
+    <string msgid="2485091187023273083" name="offline_opt_in_confirmation">"다시 온라인 상태가 되면 링크와 함께 알림을 받습니다."</string>
+    <string msgid="1070677888032715836" name="offline_opt_in_decline">"나중에"</string>
+    <string msgid="5998527443747404848" name="offline_opt_in_message">"광고주 사이트로 연결되는 링크와 함께 알림을 보내 드리겠습니다."</string>
+    <string msgid="4928666061183236333" name="offline_opt_in_title">"다시 온라인 상태가 될 때 광고 열기"</string>
+    <string name="profile_fragment_message">프로필 데이터가 없거나 프로필을 불러오는 중입니다.</string>
+    <string msgid="368094699078615544" name="s1">"이미지 저장"</string>
+    <string msgid="4550830452390689489" name="s2">"광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?"</string>
+    <string msgid="2435407834265420668" name="s3">"동의"</string>
+    <string msgid="9167523597401839819" name="s4">"거부"</string>
+    <string msgid="1566682516266724847" name="s5">"캘린더 일정 만들기"</string>
+    <string msgid="5996672174517137271" name="s6">"광고에서 캘린더 일정을 만들도록 허용하시겠습니까?"</string>
+    <string msgid="7163549807207034258" name="s7">"테스트 광고"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="toast_added">추가되었습니다.</string>
+    <string name="toast_added_failed">추가에 실패했습니다.</string>
+    <string name="toast_cleared">삭제되었습니다.</string>
+    <string name="toast_cleared_failed">삭제에 실패했습니다.</string>
+    <string name="toast_removed">제거되었습니다.</string>
+    <string name="toast_removed_failed">제거에 실패했습니다.</string>
+    <string name="toast_saved">저장되었습니다.</string>
+    <string name="toast_saved_failed">저장에 실패했습니다.</string>
+</resources>

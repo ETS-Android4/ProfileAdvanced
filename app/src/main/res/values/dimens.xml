@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- app bar padding -->
+    <dimen name="action_button_padding">0dp</dimen>
+
+    <!-- recycler view -->
+    <dimen name="grid_padding_half">0.5dp</dimen>
+    <dimen name="grid_padding">1dp</dimen>
+
+    <!-- layout -->
+    <dimen name="separator">0.5dp</dimen>
+
+    <!-- dialog round width -->
+    <dimen name="dialog_round_width">332dp</dimen>
+
+    <dimen name="nav_bar_default">54dp</dimen>
+    <dimen name="app_bar_default">56dp</dimen>
+
+    <!-- preference -->
+    <dimen name="preference_default_horizontal">16dp</dimen>
+    <dimen name="preference_default_vertical">16dp</dimen>
+
+    <dimen name="preference_category_top">24dp</dimen>
+    <dimen name="preference_category_bottom">8dp</dimen>
+</resources>

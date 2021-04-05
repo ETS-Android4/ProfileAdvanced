@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.main.fragment.more.MoreFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- default -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/more_recycler_view_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- info -->
+        <LinearLayout
+            android:id="@+id/more_category_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/more_recycler_view_default">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/separator"
+                android:background="@color/colorKakaoGraySeparator" />
+
+            <TextView
+                android:id="@+id/more_category_info_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/preference_default_horizontal"
+                android:paddingTop="@dimen/preference_category_top"
+                android:paddingEnd="@dimen/preference_default_horizontal"
+                android:paddingBottom="@dimen/preference_category_bottom"
+                android:text="@string/more_category_info"
+                android:textColor="@color/colorKakaoGrayText"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/more_recycler_view_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/more_category_info" />
+
+        <!-- application -->
+        <LinearLayout
+            android:id="@+id/more_category_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/more_recycler_view_info">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/separator"
+                android:background="@color/colorKakaoGraySeparator" />
+
+            <TextView
+                android:id="@+id/more_category_application_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/preference_default_horizontal"
+                android:paddingTop="@dimen/preference_category_top"
+                android:paddingEnd="@dimen/preference_default_horizontal"
+                android:paddingBottom="@dimen/preference_category_bottom"
+                android:text="@string/more_category_application"
+                android:textColor="@color/colorKakaoGrayText"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/more_recycler_view_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/more_category_application" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

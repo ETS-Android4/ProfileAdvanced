@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.full.FullActivity"
+    tools:showIn="@layout/activity_full">
+
+    <com.pleiades.pleione.kakaoprofile.ui.activity.full.ViewPagerFixed
+        android:id="@+id/pager_full"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <View-->
+<!--        android:id="@+id/view_bottom"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:background="@drawable/nav_background_reverse"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/button_download"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/view_bottom"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/button_archive"-->
+<!--        app:layout_constraintTop_toTopOf="@id/view_bottom" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/button_archive"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:src="@drawable/ic_archive_outline"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/view_bottom"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/view_bottom" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/button_hide"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/view_bottom"-->
+<!--        app:layout_constraintStart_toEndOf="@id/button_archive"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@id/view_bottom" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
