@@ -47,10 +47,4 @@ dependencies {
 
     // photo view
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
-
-    // admob
-    implementation 'com.google.android.gms:play-services-ads:20.5.0'
-
-    // in app billing
-    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
 }

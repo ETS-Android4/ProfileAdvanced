@@ -1,0 +1,77 @@
+<resources>
+    <!-- app name -->
+    <string name="app_name">Profile Advanced</string>
+
+    <!-- layout label -->
+    <string name="label_profiles">Profile</string>
+    <string name="label_archive">Archive</string>
+    <string name="label_more">More</string>
+    <string name="label_hide">Hidden Friends</string>
+
+    <!-- single cache directory name -->
+    <string name="cache_mini">MiniProfileImage</string>
+    <string name="cache_archive">Archive</string>
+
+    <!-- other storage-->
+    <string name="directory_default_pictures">Pictures</string>
+    <string name="directory_kakao_profile_save">KakaoProfile</string>
+
+    <!-- fragement -->
+    <string name="profile_fragment_message">Profile cache do not exist or profiles are loading.</string>
+    <string name="hide_fragment_message">Hide Profiles do not exist or profiles are loading.</string>
+    <string name="archive_fragment_message">Profiles added to the archive\nmay still be checked even if you clear profile cache.</string>
+
+    <!-- more -->
+    <string name="more_category_info">Info</string>
+    <string name="more_category_application">application</string>
+    <string name="more_store_url_kakao_profile">https://play.google.com/store/apps/details?id=com.pleiades.pleione.kakaoprofile</string>
+    <string name="more_store_url_pleione">https://play.google.com/store/apps/developer?id=Pleione+Pleiades</string>
+
+    <!-- action bar -->
+    <string name="action_sort">Sort</string>
+
+    <string name="action_add">Add to Archive</string>
+    <string name="action_save">Save to Device</string>
+    <string name="action_share">Share</string>
+    <string name="action_hide">Hide</string>
+
+    <string name="action_remove">Remove from Archive</string>
+    <string name="action_show">Reinstate</string>
+
+    <!-- dialog -->
+    <string name="dialog_manage_profile">Manage Profile</string>
+
+    <string name="dialog_android_io_message">Please allow file access to browse cache.</string>
+    <string name="dialog_android_uri_message">--</string>
+    <string name="dialog_clear_temporary_message">Are you sure you want to clear cache?\nEven if you clear profile cache, you may browse profiles that was later viewed in KakaoTalk. But the current images will no longer appear.</string>
+    <string name="dialog_disclaimer_message">This service is not affiliated with KakaoTalk.\nIt is only for image management.\nTherefore, please do not download the image without uploader\'s the permission for any commercial use.\nAnd also, the user is responsible for all consequences of using this.</string>
+    <string name="dialog_r_warning_message">Sorry.\nAndroid 11 version is not supported yet.</string>
+    <string name="dialog_notice_message">Animated profiles are encrypted so cannot be verified.</string>
+    <string name="dialog_tip_message">Did not find the profile you want?\nIf you clear cache and view profiles in KakaoTalk, you can immediately browse the images.</string>
+
+    <string name="dialog_confirm">OK</string>
+    <string name="dialog_negative">Cancel</string>
+
+    <!-- toast -->
+    <string name="toast_saved">Saved.</string>
+    <string name="toast_added">Added.</string>
+    <string name="toast_removed">Removed.</string>
+    <string name="toast_cleared">Cleared.</string>
+
+    <string name="toast_saved_failed">Save Failed.</string>
+    <string name="toast_added_failed">Add Failed.</string>
+    <string name="toast_removed_failed">Remove Failed.</string>
+    <string name="toast_cleared_failed">Clear Failed.</string>
+
+    <!-- array detail -->
+    <string name="array_more_default_hide">Hide Profiles</string>
+    <string name="array_more_default_temporary">Clear Profile Cache</string>
+
+    <string name="array_more_info_tip">Tip</string>
+    <string name="array_more_info_disclaimer">Disclaimer</string>
+
+    <string name="array_more_application_share">App Share</string>
+    <string name="array_more_application_remove_ads">Remove Ads</string>
+    <string name="array_more_application_update">Check for Update</string>
+    <string name="array_more_application_pleione">Other Apps by Pleione</string>
+</resources>

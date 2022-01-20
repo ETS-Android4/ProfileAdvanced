@@ -68,7 +68,7 @@ public class MoreRecyclerAdapter extends RecyclerView.Adapter<MoreRecyclerAdapte
                         DialogRoundFragment dialogRoundFragment = new DialogRoundFragment(DIALOG_ROUND_DEFAULT, DIALOG_DISCLAIMER, context, context.getString(R.string.dialog_disclaimer_message), true, false);
                         dialogRoundFragment.show(((FragmentActivity) context).getSupportFragmentManager(), TAG_DISCLAIMER);
                     } else if (moreList[position].equals(context.getString(R.string.array_more_application_remove_ads))) {
-                        MainActivity.billingProcessor.purchase(((Activity) context), KEY_REMOVE_ADS);
+//                        MainActivity.billingProcessor.purchase(((Activity) context), KEY_REMOVE_ADS);
                     } else if (moreList[position].equals(context.getString(R.string.array_more_application_update))) {
                         String url = context.getString(R.string.more_store_url_kakao_profile);
                         Intent intent = new Intent(Intent.ACTION_VIEW);

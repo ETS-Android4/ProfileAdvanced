@@ -1,5 +1,7 @@
 package com.pleiades.pleione.kakaoprofile.ui.toast;
 
+import static com.pleiades.pleione.kakaoprofile.ui.toast.ToastConfig.HIGH_POSITION;
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Color;
@@ -11,13 +13,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdSize;
-import com.pleiades.pleione.kakaoprofile.DeviceController;
 import com.pleiades.pleione.kakaoprofile.R;
-import com.pleiades.pleione.kakaoprofile.prefs.PrefsController;
-
-import static com.pleiades.pleione.kakaoprofile.prefs.PrefsConfig.KEY_REMOVE_ADS;
-import static com.pleiades.pleione.kakaoprofile.ui.toast.ToastConfig.HIGH_POSITION;
 
 public class ToastController {
     private Context context;
@@ -68,15 +64,8 @@ public class ToastController {
         int defaultOffset = context.getResources().getDimensionPixelSize(i);
         int additionalOffset = context.getResources().getDimensionPixelSize(additionalOffsetId);
 
-        if (position == HIGH_POSITION)
-            toast.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, defaultOffset + additionalOffset);
-        else {
-            // add ad size
-            if(!PrefsController.getBoolean(KEY_REMOVE_ADS))
-                additionalOffset = additionalOffset + dpToPx(AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(context, DeviceController.getAdWidth()).getHeight());
-
-            toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, defaultOffset + additionalOffset);
-        }
+        if (position == HIGH_POSITION) toast.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, defaultOffset + additionalOffset);
+        else toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, defaultOffset + additionalOffset);
 
         // show
         toast.show();
