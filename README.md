@@ -1,5 +1,5 @@
 # ProfileAdvanced (END-OF-SUPPORT)
-Android Application for Saving Profile Image
+Android Application for Saving K-Talk Profile Image
 
 ## Release
 <img src="https://user-images.githubusercontent.com/81938036/150373743-41a198ba-b49c-45d1-84e6-95a0534a2025.png" width="64" height="64">
